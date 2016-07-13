@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-actionable-ids",
+  "version": "0.0.0",
+  "description": "Ensures id&#39;s are provided for actionable JSX elements",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Alec Harmon",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
