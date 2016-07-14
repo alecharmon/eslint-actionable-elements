@@ -41,11 +41,13 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+## Installation
+
+```
+$ npm test
+```
+
+
 ## Supported Rules
 
 * Fill in provided rules here
-
-
-
-
-
