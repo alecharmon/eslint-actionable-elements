@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/actionable-ids-lib"),
+var rule = require("../../../lib/rules/actionable-elements-lib"),
 
     RuleTester = require("eslint").RuleTester;
 

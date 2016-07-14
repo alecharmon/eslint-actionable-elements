@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-actionable-ids",
+  "name": "eslint-plugin-actionable-elements",
   "version": "0.0.0",
   "description": "Ensures id&#39;s are provided for actionable JSX elements",
   "keywords": [

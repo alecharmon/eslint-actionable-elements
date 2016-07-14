@@ -1,4 +1,4 @@
-# Ensures id&#39;s are provided for actiona (actionable-ids-lib)
+# Ensures id&#39;s are provided for actiona (actionable-elements-lib)
 
 Please describe the origin of the rule here.
 
