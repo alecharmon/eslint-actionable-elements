@@ -1,6 +1,6 @@
 /**
- * @fileoverview Ensures id's are provided for actiona
- * @author Alec Harmon
+ * @fileoverview requires ids for actionable elmeents
+ * @author alec
  */
 "use strict";
 
@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/actionable-elements-lib"),
+var rule = require("../../../lib/rules/require-ids-for-actionable-elements"),
 
     RuleTester = require("eslint").RuleTester;
 
