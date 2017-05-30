@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "actionable-elements/rule-name": 2
+        "actionable-elements/require-ids-for-actionable-elements": 2
     }
 }
 ```
