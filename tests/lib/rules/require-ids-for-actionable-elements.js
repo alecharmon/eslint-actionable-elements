@@ -32,6 +32,8 @@ ruleTester.run("require-ids-for-actionable-elements", rule, {
           parserOptions:
           parserOptions },
         { code: "<btn id='gilscottherold' />", parserOptions: parserOptions },
+        { code: "var o = {key: 1}", parserOptions: parserOptions },
+        { code: "1 + 1", parserOptions: parserOptions }
 
     ],
     invalid: [
@@ -40,21 +42,8 @@ ruleTester.run("require-ids-for-actionable-elements", rule, {
         parserOptions: parserOptions,
         errors: [errorMessage]
       },
-
       {
         code: "<button size='someButton'>   </button>",
-        parserOptions: parserOptions,
-        errors: [errorMessage]
-      },
-
-      {
-        code: "< button id > Hello, world</button>",
-        parserOptions: parserOptions,
-        errors: [errorMessage]
-      },
-
-      {
-        code: "< button id > Hello, world</button>",
         parserOptions: parserOptions,
         errors: [errorMessage]
       },
